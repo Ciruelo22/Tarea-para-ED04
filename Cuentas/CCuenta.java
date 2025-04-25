@@ -4,7 +4,7 @@ public class CCuenta {
     private String nombre;
     private String cuenta;
     private double saldo;
-    private double tipoInterés;
+    private double tipoInteres;
 
     public CCuenta()
     {
@@ -16,6 +16,33 @@ public class CCuenta {
         cuenta=cue;
         saldo=sal;
     }
+
+    //Getters & Setters
+    public String getNombre(){
+        return nombre;
+    }
+    public String getCuenta(){
+        return cuenta;
+    }
+    public double getSaldo(){
+        return saldo;
+    }
+    public double getTipoInteres(){
+        return tipoInteres;
+    }
+    public void setNombre(String nombre){
+        this.nombre=nombre;
+    }
+    public void setCuenta(String cuenta){
+        this.cuenta=cuenta;
+    }
+    public void setSaldo(double saldo){
+        this.saldo=saldo;
+    }
+    public void setTipoInteres(double tipoInteres){
+        this.tipoInteres=tipoInteres;
+    }
+    
 
     public double estado()
     {
