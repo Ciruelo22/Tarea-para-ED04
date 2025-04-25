@@ -42,12 +42,6 @@ public class CCuenta {
     public void setTipoInteres(double tipoInteres){
         this.tipoInteres=tipoInteres;
     }
-    
-
-    public double estado()
-    {
-        return saldo;
-    }
 
     public void ingresar(double cantidad) throws Exception
     {
